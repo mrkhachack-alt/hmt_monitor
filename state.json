@@ -1,8 +1,8 @@
 {
  "|0211261628432201.jpg": {
   "name": "",
-  "status": "unavailable",
-  "category": "Men's"
+  "status": "unconfirmed",
+  "category": "Unclassified"
  },
  "hmt kannadiga gent..|": {
   "name": "HMT Kannadiga Gent..",
@@ -11,18 +11,18 @@
  },
  "|021126259780082.jpg": {
   "name": "",
-  "status": "unavailable",
-  "category": "Men's"
+  "status": "unconfirmed",
+  "category": "Unclassified"
  },
  "|0211262008707160.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Men's"
+  "category": "Unclassified"
  },
  "|02112668750353.jpg": {
   "name": "",
-  "status": "unavailable",
-  "category": "Men's"
+  "status": "unconfirmed",
+  "category": "Unclassified"
  },
  "|3010261412767457.jpg": {
   "name": "",
@@ -131,8 +131,8 @@
  },
  "|121126243465999.jpg": {
   "name": "",
-  "status": "unavailable",
-  "category": "Men's"
+  "status": "unconfirmed",
+  "category": "Unclassified"
  },
  "hmt kohinoor autom..|": {
   "name": "HMT Kohinoor Autom..",
@@ -147,7 +147,7 @@
  "|071126995836639.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Men's"
+  "category": "Unclassified"
  },
  "hmt men's gandaber..|": {
   "name": "HMT Men's Gandaber..",
@@ -201,13 +201,13 @@
  },
  "|2409261466828531.jpg": {
   "name": "",
-  "status": "unavailable",
-  "category": "Men's"
+  "status": "unconfirmed",
+  "category": "Unclassified"
  },
  "|1809261026534100.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Men's"
+  "category": "Unclassified"
  },
  "hmt men's gandabe..|": {
   "name": "HMT Men's Gandabe..",
@@ -246,8 +246,8 @@
  },
  "|130226346217319.jpg": {
   "name": "",
-  "status": "unavailable",
-  "category": "Men's"
+  "status": "unconfirmed",
+  "category": "Unclassified"
  },
  "|2109241117412092.jpg": {
   "name": "",
@@ -492,7 +492,7 @@
  "|1211261575682914.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Men's"
+  "category": "Unclassified"
  },
  "|270225436561733.jpg": {
   "name": "",
@@ -507,7 +507,7 @@
  "|0211261392137096.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Women's"
+  "category": "Unclassified"
  },
  "hmt kannadiga ladi..|": {
   "name": "HMT Kannadiga Ladi..",
@@ -516,23 +516,23 @@
  },
  "|021126737301982.jpg": {
   "name": "",
-  "status": "unavailable",
-  "category": "Women's"
+  "status": "unconfirmed",
+  "category": "Unclassified"
  },
  "|02112645603758.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Women's"
+  "category": "Unclassified"
  },
  "|021126179203142.jpg": {
   "name": "",
-  "status": "unavailable",
-  "category": "Women's"
+  "status": "unconfirmed",
+  "category": "Unclassified"
  },
  "|3110261045074969.jpg": {
   "name": "",
-  "status": "unavailable",
-  "category": "Women's"
+  "status": "unconfirmed",
+  "category": "Unclassified"
  },
  "hmt women's gandab..|": {
   "name": "HMT Women's Gandab..",
@@ -541,13 +541,13 @@
  },
  "|301026692343319.jpg": {
   "name": "",
-  "status": "unavailable",
-  "category": "Women's"
+  "status": "unconfirmed",
+  "category": "Unclassified"
  },
  "|0711261388126942.jpg": {
   "name": "",
-  "status": "unavailable",
-  "category": "Women's"
+  "status": "unconfirmed",
+  "category": "Unclassified"
  },
  "|2409261632609512.png": {
   "name": "",
@@ -571,13 +571,13 @@
  },
  "|2303261928910018.jpg": {
   "name": "",
-  "status": "unavailable",
-  "category": "Women's"
+  "status": "unconfirmed",
+  "category": "Unclassified"
  },
  "|1809261666368498.jpg": {
   "name": "",
-  "status": "unavailable",
-  "category": "Women's"
+  "status": "unconfirmed",
+  "category": "Unclassified"
  },
  "|0809261510494903.jpg": {
   "name": "",
@@ -622,7 +622,7 @@
  "|110723996124860.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Women's"
+  "category": "Unclassified"
  },
  "hmt utsav bln 03 r..|": {
   "name": "HMT Utsav BLN 03 R..",
