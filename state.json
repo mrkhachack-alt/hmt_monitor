@@ -146,12 +146,12 @@
  },
  "|071126995836639.jpg": {
   "name": "",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "hmt men's gandaber..|": {
   "name": "HMT Men's Gandaber..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "|240926153033809.jpg": {
@@ -206,12 +206,12 @@
  },
  "|1809261026534100.jpg": {
   "name": "",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "hmt men's gandabe..|": {
   "name": "HMT Men's Gandabe..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "|0403261859587556.jpg": {
@@ -462,47 +462,47 @@
  "|070523826673301.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Unclassified"
+  "category": "Men's"
  },
  "|0705231269144581.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Unclassified"
+  "category": "Men's"
  },
  "|070523570997657.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Unclassified"
+  "category": "Men's"
  },
  "|161024766272032.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Unclassified"
+  "category": "Men's"
  },
  "|04052342046193.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Unclassified"
+  "category": "Men's"
  },
  "|2401231410573891.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Unclassified"
+  "category": "Men's"
  },
  "|1211261575682914.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Unclassified"
+  "category": "Men's"
  },
  "|270225436561733.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Unclassified"
+  "category": "Men's"
  },
  "|160525742809164.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Unclassified"
+  "category": "Men's"
  },
  "|0211261392137096.jpg": {
   "name": "",
@@ -531,12 +531,12 @@
  },
  "|3110261045074969.jpg": {
   "name": "",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Women's"
  },
  "hmt women's gandab..|": {
   "name": "HMT Women's Gandab..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Women's"
  },
  "|301026692343319.jpg": {
@@ -546,7 +546,7 @@
  },
  "|0711261388126942.jpg": {
   "name": "",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Women's"
  },
  "|2409261632609512.png": {
@@ -671,7 +671,7 @@
  },
  "hmt women's gandabe..|3110261045074969.jpg": {
   "name": "HMT Women's Gandabe..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Women's"
  },
  "hmt women's gandabe..|301026692343319.jpg": {
@@ -751,7 +751,7 @@
  },
  "hmt  men's gandaber..|1809261026534100.jpg": {
   "name": "HMT  Men's Gandaber..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "hmt men's gandaberu..|2409261466828531.jpg": {
@@ -761,7 +761,7 @@
  },
  "hmt men's gandaberu..|071126995836639.jpg": {
   "name": "HMT Men's Gandaberu..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "hmt women's gandabe..|2303261928910018.jpg": {
@@ -771,7 +771,7 @@
  },
  "hmt women's gandabe..|0711261388126942.jpg": {
   "name": "HMT Women's Gandabe..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Women's"
  },
  "hmt women's gandabe..|1809261666368498.jpg": {
