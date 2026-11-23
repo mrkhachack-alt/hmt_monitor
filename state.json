@@ -462,47 +462,47 @@
  "|070523826673301.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Men's"
+  "category": "Unclassified"
  },
  "|0705231269144581.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Men's"
+  "category": "Unclassified"
  },
  "|070523570997657.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Men's"
+  "category": "Unclassified"
  },
  "|161024766272032.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Men's"
+  "category": "Unclassified"
  },
  "|04052342046193.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Men's"
+  "category": "Unclassified"
  },
  "|2401231410573891.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Men's"
+  "category": "Unclassified"
  },
  "|1211261575682914.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Men's"
+  "category": "Unclassified"
  },
  "|270225436561733.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Men's"
+  "category": "Unclassified"
  },
  "|160525742809164.jpg": {
   "name": "",
   "status": "unavailable",
-  "category": "Men's"
+  "category": "Unclassified"
  },
  "|0211261392137096.jpg": {
   "name": "",
@@ -808,5 +808,15 @@
   "name": "HMT Kohinoor Quartz..",
   "status": "unavailable",
   "category": "Unclassified"
+ },
+ "|2311261141687905.jpg": {
+  "name": "",
+  "status": "unavailable",
+  "category": "Men's"
+ },
+ "hmt kannadiga gents..|2311261141687905.jpg": {
+  "name": "HMT Kannadiga Gents..",
+  "status": "unavailable",
+  "category": "Men's"
  }
 }
