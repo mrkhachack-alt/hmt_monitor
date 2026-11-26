@@ -21,6 +21,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       - name: Save state
+        if: always()
         run: |
           git config user.name "hmt-monitor"; git config user.email "bot@users.noreply.github.com"
           git add state.json && (git diff --cached --quiet || git commit -m "state $(date -u +%FT%TZ)" && git push) || true
