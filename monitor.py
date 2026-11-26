@@ -10,11 +10,12 @@ PAGES = [("/mens", "Men's"), ("/womens", "Women's"), ("/pair", "Pair"), ("/unise
 STATE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "state.json")
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 NEG = re.compile(r"coming soon|out of stock|sold out|currently unavailable|notify me", re.I)
-SEL = "a[href*='product_overview?id=']"
+SEL = "a[href*='/product-'], a[href*='product_overview?id=']"
+HEALTH = "_health"
 
 # Runs inside the browser: for every product link, find the card that holds only that product.
 CARD_JS = """() => {
-  const sel = "a[href*='product_overview?id=']", out = [];
+  const sel = "a[href*='/product-'], a[href*='product_overview?id=']", out = [];
   const distinct = el => new Set([...el.querySelectorAll(sel)].map(x => x.href)).size;
   document.querySelectorAll(sel).forEach(a => {
     let el = a;
@@ -68,7 +69,8 @@ def parse_card(c):
     name = next((l for l in lines if l.upper().startswith("HMT")), None) or \
            next((l for l in lines if re.search(r"[A-Za-z]{3}", l) and not NEG.fullmatch(l)), "")
     img = os.path.basename(urllib.parse.urlparse(c["img"]).path)
-    return {"name": name, "price": "Rs. " + price.group(1) if price else "n/a",
+    pid = re.search(r"/product-(\d+)", c["href"])
+    return {"pid": pid.group(1) if pid else None, "name": name, "price": "Rs. " + price.group(1) if price else "n/a",
             "neg": bool(NEG.search(text)), "img": img, "href": c["href"]}
 
 def guess_category(name):
@@ -109,9 +111,12 @@ def main():
     from playwright.sync_api import sync_playwright
     state = json.load(open(STATE)) if os.path.exists(STATE) else {}
     old = json.dumps(state, sort_keys=True)
-    first_run = not state
+    broken = state.get(HEALTH, {}).get("broken", False)
+    products = {k: v for k, v in state.items() if k != HEALTH}
+    first_run = not any(k.startswith("product-") for k in products)   # also re-baselines after the link-format change
+    state = products
     now = datetime.now(ZoneInfo("Asia/Kolkata")).strftime("%d %b %Y, %I:%M %p IST")
-    cards, alerts, new_state = {}, [], dict(state)
+    cards, alerts, new_state = {}, [], ({} if first_run else dict(state))
     with sync_playwright() as p:
         browser = p.chromium.launch()
         ctx = browser.new_context(user_agent=UA, locale="en-IN", timezone_id="Asia/Kolkata",
@@ -122,12 +127,18 @@ def main():
             print(f"{path}: {'FAILED' if res is None else str(len(res)) + ' product links'}")
             for c in res or []:
                 d = parse_card(c)
-                key = f"{d['name']}|{d['img']}".lower()
+                if not d["pid"] and "product_overview" not in d["href"]: continue
+                key = f"product-{d['pid']}" if d["pid"] else f"{d['name']}|{d['img']}".lower()
                 if key not in cards: cards[key] = {**d, "category": cat}
                 elif cat and not cards[key]["category"]: cards[key]["category"] = cat
         if not cards:
             print("NO PRODUCTS FOUND. Page title:", page.title(), "| links on page:", page.locator("a").count())
-            print(page.inner_text("body")[:400]); sys.exit(1)
+            print(page.inner_text("body")[:400])
+            if not broken:                                      # tell the user once, not every 10 minutes
+                try: telegram("HMT monitor warning: it cannot read any watches from the website right now (site down or layout changed). I will tell you when it works again.")
+                except Exception as e: print("telegram fail:", e)
+                json.dump({**state, HEALTH: {"broken": True}}, open(STATE, "w"), indent=1, ensure_ascii=False)
+            sys.exit(1)
         for key, d in cards.items():
             cat = d["category"] or guess_category(d["name"])
             prev = state.get(key, {}).get("status")
@@ -149,6 +160,9 @@ def main():
     if alerts:                                                  # state is saved only after alerts are delivered
         msg = "HMT watch alert\n\n" + "\n\n".join(alerts)
         for i in range(0, len(msg), 3800): telegram(msg[i:i + 3800])
+    if broken:
+        try: telegram("HMT monitor is reading the website again.")
+        except Exception as e: print("telegram fail:", e)
     if json.dumps(new_state, sort_keys=True) != old:
         json.dump(new_state, open(STATE, "w"), indent=1, ensure_ascii=False)
     print(f"{now}: {len(cards)} products checked, {len(alerts)} alerts, first_run={first_run}")
