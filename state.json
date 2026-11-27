@@ -96,7 +96,7 @@
  },
  "product-1224": {
   "name": "HMT Men's Tareeq A..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-1223": {
@@ -516,7 +516,7 @@
  },
  "product-1234": {
   "name": "HMT Women's Gandab..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Women's"
  },
  "product-1216": {
@@ -536,7 +536,7 @@
  },
  "product-1179": {
   "name": "HMT Women's Gandab..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Women's"
  },
  "product-1177": {
@@ -581,12 +581,12 @@
  },
  "product-1253": {
   "name": "HMT Men's Gandaber..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-1252": {
   "name": "HMT Men's Gandaber..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-1254": {
