@@ -121,7 +121,7 @@
  },
  "product-1219": {
   "name": "HMT Stellar DASS 0..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-1218": {
@@ -311,7 +311,7 @@
  },
  "product-881": {
   "name": "HMT NASS 13 Blue",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-880": {
@@ -411,7 +411,7 @@
  },
  "product-406": {
   "name": "HMT Stellar DASS 0..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-405": {
@@ -506,7 +506,7 @@
  },
  "product-1240": {
   "name": "HMT Kannadiga Ladi..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Women's"
  },
  "product-1235": {
