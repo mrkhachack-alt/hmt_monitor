@@ -16,7 +16,7 @@
  },
  "product-1250": {
   "name": "HMT Stellar DASS 0..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-1249": {
@@ -96,17 +96,17 @@
  },
  "product-1224": {
   "name": "HMT Men's Tareeq A..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "product-1223": {
   "name": "HMT Men's Tareeq A..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "product-1222": {
   "name": "HMT Men's Tareeq A..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "product-1221": {
@@ -496,7 +496,7 @@
  },
  "product-1242": {
   "name": "HMT Kannadiga Ladi..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Women's"
  },
  "product-1241": {
@@ -506,22 +506,22 @@
  },
  "product-1240": {
   "name": "HMT Kannadiga Ladi..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Women's"
  },
  "product-1235": {
   "name": "HMT Women's Gandab..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Women's"
  },
  "product-1234": {
   "name": "HMT Women's Gandab..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Women's"
  },
  "product-1216": {
   "name": "HMT Women's Gandab..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Women's"
  },
  "product-1214": {
@@ -536,12 +536,12 @@
  },
  "product-1179": {
   "name": "HMT Women's Gandab..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Women's"
  },
  "product-1177": {
   "name": "HMT Women's Gandab..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Women's"
  },
  "product-1022": {
@@ -577,6 +577,21 @@
  "product-554": {
   "name": "HMT Utsav BLN 03 R..",
   "status": "unavailable",
+  "category": "Women's"
+ },
+ "product-1253": {
+  "name": "HMT Men's Gandaber..",
+  "status": "in_stock",
+  "category": "Men's"
+ },
+ "product-1252": {
+  "name": "HMT Men's Gandaber..",
+  "status": "in_stock",
+  "category": "Men's"
+ },
+ "product-1254": {
+  "name": "HMT Kannadiga Ladi..",
+  "status": "in_stock",
   "category": "Women's"
  }
 }
