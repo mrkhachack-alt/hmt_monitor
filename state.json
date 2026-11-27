@@ -1,7 +1,7 @@
 {
  "product-523": {
   "name": "HMT Stellar DASL 0..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-522": {
@@ -106,7 +106,7 @@
  },
  "product-1222": {
   "name": "HMT Men's Tareeq A..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-1221": {
@@ -326,7 +326,7 @@
  },
  "product-860": {
   "name": "HMT Stellar DASS 1..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-859": {
@@ -346,7 +346,7 @@
  },
  "product-808": {
   "name": "HMT NASS 12 Blue",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-807": {
