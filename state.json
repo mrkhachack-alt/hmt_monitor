@@ -1,12 +1,12 @@
 {
  "product-523": {
   "name": "HMT Stellar DASL 0..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "product-522": {
   "name": "HMT Stellar DASL 0..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "product-1251": {
@@ -96,17 +96,17 @@
  },
  "product-1224": {
   "name": "HMT Men's Tareeq A..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-1223": {
   "name": "HMT Men's Tareeq A..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-1222": {
   "name": "HMT Men's Tareeq A..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-1221": {
@@ -326,7 +326,7 @@
  },
  "product-860": {
   "name": "HMT Stellar DASS 1..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "product-859": {
@@ -411,7 +411,7 @@
  },
  "product-406": {
   "name": "HMT Stellar DASS 0..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "product-405": {
