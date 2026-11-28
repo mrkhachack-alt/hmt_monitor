@@ -16,7 +16,7 @@
  },
  "product-1250": {
   "name": "HMT Stellar DASS 0..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-1249": {
@@ -156,7 +156,7 @@
  },
  "product-1206": {
   "name": "HMT Sangam MGSS 06..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "product-1205": {
@@ -326,7 +326,7 @@
  },
  "product-860": {
   "name": "HMT Stellar DASS 1..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-859": {
@@ -496,7 +496,7 @@
  },
  "product-1242": {
   "name": "HMT Kannadiga Ladi..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Women's"
  },
  "product-1241": {
@@ -591,7 +591,7 @@
  },
  "product-1254": {
   "name": "HMT Kannadiga Ladi..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Women's"
  },
  "product-1255": {
