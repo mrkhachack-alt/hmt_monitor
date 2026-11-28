@@ -1,7 +1,7 @@
 name: HMT stock monitor
 on:
   schedule:
-    - cron: "*/10 * * * *"   # change to */5 for every 5 minutes (GitHub may still delay runs)
+    - cron: "*/5 * * * *"    # every 5 min (GitHub may delay runs); change 5 to 10 for every 10 min
   workflow_dispatch: {}
 permissions:
   contents: write
@@ -9,13 +9,17 @@ concurrency: hmt-monitor
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-v1
       - name: Install browser
-        run: pip install playwright && playwright install --with-deps chromium
+        run: pip install playwright requests && playwright install --with-deps chromium
       - run: python monitor.py
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
