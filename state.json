@@ -16,7 +16,7 @@
  },
  "product-1250": {
   "name": "HMT Stellar DASS 0..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "product-1249": {
@@ -116,12 +116,12 @@
  },
  "product-1220": {
   "name": "HMT Stellar DASS 0..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "product-1219": {
   "name": "HMT Stellar DASS 0..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "product-1218": {
@@ -131,7 +131,7 @@
  },
  "product-1217": {
   "name": "HMT Stellar DASS 0..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "product-1215": {
@@ -296,7 +296,7 @@
  },
  "product-909": {
   "name": "HMT Kedar Premium ..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "product-908": {
@@ -326,7 +326,7 @@
  },
  "product-860": {
   "name": "HMT Stellar DASS 1..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "product-859": {
@@ -511,12 +511,12 @@
  },
  "product-1235": {
   "name": "HMT Women's Gandab..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Women's"
  },
  "product-1234": {
   "name": "HMT Women's Gandab..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Women's"
  },
  "product-1216": {
@@ -596,7 +596,37 @@
  },
  "product-1255": {
   "name": "HMT Inox IXGS 08 W..",
+  "status": "unavailable",
+  "category": "Men's"
+ },
+ "product-1257": {
+  "name": "HMT Kedar Premium ..",
   "status": "in_stock",
+  "category": "Men's"
+ },
+ "product-1256": {
+  "name": "HMT Inox IXGS 08 B..",
+  "status": "unavailable",
+  "category": "Men's"
+ },
+ "product-1161": {
+  "name": "HMT Sangam MGSS 05..",
+  "status": "unavailable",
+  "category": "Men's"
+ },
+ "product-1044": {
+  "name": "HMT Sangam MGSS 05..",
+  "status": "unavailable",
+  "category": "Men's"
+ },
+ "product-687": {
+  "name": "HMT Tareeq Quartz ..",
+  "status": "unavailable",
+  "category": "Men's"
+ },
+ "product-686": {
+  "name": "HMT Tareeq Quartz ..",
+  "status": "unavailable",
   "category": "Men's"
  }
 }
