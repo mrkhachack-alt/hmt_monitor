@@ -101,7 +101,7 @@
  },
  "product-1223": {
   "name": "HMT Men's Tareeq A..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-1222": {
@@ -116,7 +116,7 @@
  },
  "product-1220": {
   "name": "HMT Stellar DASS 0..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-1219": {
@@ -131,7 +131,7 @@
  },
  "product-1217": {
   "name": "HMT Stellar DASS 0..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-1215": {
@@ -601,7 +601,7 @@
  },
  "product-1257": {
   "name": "HMT Kedar Premium ..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-1256": {
