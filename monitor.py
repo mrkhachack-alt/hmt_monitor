@@ -205,7 +205,8 @@ def send_group(group):
 def send_alerts(items, header):
     send_text(header)
     with_img = [i for i in items if i["img"]]
-    for i in range(0, len(with_img), 10): send_group(with_img[i:i + 10])
+    for it in with_img:                                          # one photo per watch so the caption is always visible
+        send_group([it]); time.sleep(1.2)                        # (Telegram hides captions inside multi-photo albums)
     rest = [i["cap"] for i in items if not i["img"]]
     if rest: send_text("\n\n".join(rest))
 
