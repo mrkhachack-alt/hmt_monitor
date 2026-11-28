@@ -96,17 +96,17 @@
  },
  "product-1224": {
   "name": "HMT Men's Tareeq A..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "product-1223": {
   "name": "HMT Men's Tareeq A..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "product-1222": {
   "name": "HMT Men's Tareeq A..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Men's"
  },
  "product-1221": {
@@ -321,7 +321,7 @@
  },
  "product-872": {
   "name": "HMT NASS 11 Blue",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-860": {
@@ -346,7 +346,7 @@
  },
  "product-808": {
   "name": "HMT NASS 12 Blue",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-807": {
@@ -496,7 +496,7 @@
  },
  "product-1242": {
   "name": "HMT Kannadiga Ladi..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Women's"
  },
  "product-1241": {
