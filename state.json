@@ -96,7 +96,7 @@
  },
  "product-1224": {
   "name": "HMT Men's Tareeq A..",
-  "status": "in_stock",
+  "status": "unavailable",
   "category": "Men's"
  },
  "product-1223": {
@@ -511,12 +511,12 @@
  },
  "product-1235": {
   "name": "HMT Women's Gandab..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Women's"
  },
  "product-1234": {
   "name": "HMT Women's Gandab..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Women's"
  },
  "product-1216": {
@@ -541,7 +541,7 @@
  },
  "product-1177": {
   "name": "HMT Women's Gandab..",
-  "status": "unavailable",
+  "status": "in_stock",
   "category": "Women's"
  },
  "product-1022": {
@@ -593,5 +593,10 @@
   "name": "HMT Kannadiga Ladi..",
   "status": "unavailable",
   "category": "Women's"
+ },
+ "product-1255": {
+  "name": "HMT Inox IXGS 08 W..",
+  "status": "in_stock",
+  "category": "Men's"
  }
 }
